@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 });
 
 // Importa las rutas
-const router = require('./routes/index');
+const router = require('./src/routes/index');
 
 // Rutas y configuraciones adicionales...
 app.use('/', router);

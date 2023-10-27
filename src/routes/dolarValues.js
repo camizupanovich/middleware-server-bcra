@@ -5,7 +5,7 @@ require('dotenv').config();
 const { BCRA_API_URL } = process.env;
 
 // middleware
-const addBearerToken = require('../authmiddleware');
+const addBearerToken = require('../middleware/authMiddleware');
 
 // routes
 
