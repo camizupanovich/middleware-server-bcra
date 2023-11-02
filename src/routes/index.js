@@ -10,7 +10,21 @@ router.get('/', (req, res) => {
 <html>
 
 <head>
-    <title>BCRA Api</title>
+<title>BCRA API - Banco Central de la Republica Argentina</title>
+<meta name="title" content="BCRA API - Banco Central de la Republica Argentina">
+<meta name="description" content="Un servidor intermedio que permite solicitudes http a un sitio de estadisticas no oficiales.">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://estadisticas-middle-server-bcra.onrender.com/">
+<meta property="og:title" content="BCRA API - Banco Central de la Republica Argentina">
+<meta property="og:description" content="Un servidor intermedio que permite solicitudes http a un sitio de estadisticas no oficiales.">
+<meta property="og:image" content="http://www.opengraphgenerator.com/images/open-graph.jpg">
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://estadisticas-middle-server-bcra.onrender.com/">
+<meta property="twitter:title" content="BCRA API - Banco Central de la Republica Argentina">
+<meta property="twitter:description" content="Un servidor intermedio que permite solicitudes http a un sitio de estadisticas no oficiales.">
+<meta property="twitter:image" content="http://estadisticas-middle-server-bcra.onrender.com/images/open-graph.jpg">
     <style>
         body {
             background-color: #F9F9F9;
