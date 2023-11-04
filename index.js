@@ -21,6 +21,9 @@ app.use((req, res, next) => {
   next();
 });
 
+//open-graph
+app.use(express.static('public'));
+
 // Importa las rutas
 const router = require('./src/routes/index');
 
